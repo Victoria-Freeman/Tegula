@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Tegula.Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/tegula_button_bg</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/tegula_text_sm</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">@dimen/tegula_touch_target</item>
+        <item name="android:paddingStart">@dimen/tegula_spacing_xl</item>
+        <item name="android:paddingEnd">@dimen/tegula_spacing_xl</item>
+    </style>
+</resources>

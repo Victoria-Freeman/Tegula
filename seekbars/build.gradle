@@ -1,0 +1,19 @@
+plugins {
+    alias(libs.plugins.android.library)
+}
+
+def rootName = rootProject.name
+def colorsPath = (rootName == 'Tegula') ? ':colors' : ':Tegula:colors'
+
+android {
+    namespace 'com.venddair.tegula.seekbars'
+    compileSdk 36
+
+    defaultConfig {
+        minSdk 21
+    }
+}
+
+dependencies {
+    api project(colorsPath)
+}

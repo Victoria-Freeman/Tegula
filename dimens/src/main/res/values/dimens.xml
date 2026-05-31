@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing -->
+    <dimen name="tegula_spacing_xs">4dp</dimen>
+    <dimen name="tegula_spacing_sm">8dp</dimen>
+    <dimen name="tegula_spacing_md">12dp</dimen>
+    <dimen name="tegula_spacing_lg">16dp</dimen>
+    <dimen name="tegula_spacing_xl">24dp</dimen>
+
+    <!-- Touch targets -->
+    <dimen name="tegula_touch_target">48dp</dimen>
+
+    <!-- Dropdown -->
+    <dimen name="tegula_dropdown_max_height">340dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="tegula_text_xs">12sp</dimen>
+    <dimen name="tegula_text_sm">14sp</dimen>
+    <dimen name="tegula_text_md">16sp</dimen>
+
+    <!-- Elevation -->
+    <dimen name="tegula_elevation_card">2dp</dimen>
+    <dimen name="tegula_elevation_popup">8dp</dimen>
+
+    <!-- Corner radii -->
+    <dimen name="tegula_corner_radius_card">20dp</dimen>
+    <dimen name="tegula_corner_radius_dropdown">12dp</dimen>
+    <dimen name="tegula_corner_radius_item">8dp</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tegula_dropdown_popup" type="id" />
+    <item name="tegula_dropdown_items" type="id" />
+    <item name="tegula_dropdown_listener" type="id" />
+</resources>

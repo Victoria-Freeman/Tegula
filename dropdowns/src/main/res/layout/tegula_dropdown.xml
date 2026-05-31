@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tegula dropdown trigger. Items appear in a floating PopupWindow. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tegula_dropdown_trigger"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tegula_touch_target"
+    android:background="@drawable/tegula_dropdown_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/tegula_spacing_lg"
+    android:paddingEnd="@dimen/tegula_spacing_lg"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/tegula_dropdown_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/tegula_dropdown_select"
+        android:textColor="@color/tegula_text_on_accent"
+        android:textSize="@dimen/tegula_text_sm" />
+
+    <ImageView
+        android:id="@+id/tegula_dropdown_chevron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tegula_dropdown_chevron"
+        android:contentDescription="@null" />
+</LinearLayout>

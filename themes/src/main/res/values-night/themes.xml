@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.Tegula" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/tegula_bg_root</item>
+        <item name="android:statusBarColor">@color/tegula_bg_root</item>
+        <item name="android:navigationBarColor">@color/tegula_accent</item>
+    </style>
+</resources>

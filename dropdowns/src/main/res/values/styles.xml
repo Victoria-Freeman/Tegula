@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Tegula.Dropdown" parent="@android:style/Widget">
+        <item name="android:background">@drawable/tegula_dropdown_bg</item>
+    </style>
+
+    <style name="Widget.Tegula.Dropdown.Trigger">
+        <item name="android:minHeight">@dimen/tegula_touch_target</item>
+        <item name="android:paddingStart">@dimen/tegula_spacing_lg</item>
+        <item name="android:paddingEnd">@dimen/tegula_spacing_lg</item>
+    </style>
+
+    <style name="Widget.Tegula.Dropdown.Item">
+        <item name="android:minHeight">@dimen/tegula_touch_target</item>
+        <item name="android:paddingStart">@dimen/tegula_spacing_lg</item>
+        <item name="android:paddingEnd">@dimen/tegula_spacing_lg</item>
+        <item name="android:textSize">@dimen/tegula_text_sm</item>
+        <item name="android:textColor">@color/tegula_text_primary</item>
+    </style>
+</resources>

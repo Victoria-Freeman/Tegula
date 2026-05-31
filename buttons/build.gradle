@@ -1,0 +1,21 @@
+plugins {
+    alias(libs.plugins.android.library)
+}
+
+def rootName = rootProject.name
+def colorsPath = (rootName == 'Tegula') ? ':colors' : ':Tegula:colors'
+def dimensPath = (rootName == 'Tegula') ? ':dimens' : ':Tegula:dimens'
+
+android {
+    namespace 'com.venddair.tegula.buttons'
+    compileSdk 36
+
+    defaultConfig {
+        minSdk 21
+    }
+}
+
+dependencies {
+    api project(colorsPath)
+    api project(dimensPath)
+}

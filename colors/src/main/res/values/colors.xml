@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tegula_accent">#FF3366FF</color>
+    <color name="tegula_bg_root">#FFB0C8E0</color>
+    <color name="tegula_bg_card">#FFC8D8F0</color>
+    <color name="tegula_text_primary">#FF1C1B1F</color>
+    <color name="tegula_text_secondary">#FF6B7280</color>
+    <color name="tegula_text_on_accent">#FFFFFFFF</color>
+    <color name="tegula_toggle_on">#FF3366FF</color>
+    <color name="tegula_toggle_off">#FFC8D8F0</color>
+    <color name="tegula_seekbar_track">#FF8AB0D8</color>
+    <color name="tegula_warning_red">#FFB71C1C</color>
+</resources>
