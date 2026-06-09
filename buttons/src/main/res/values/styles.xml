@@ -8,5 +8,6 @@
         <item name="android:minHeight">@dimen/tegula_touch_target</item>
         <item name="android:paddingStart">@dimen/tegula_spacing_xl</item>
         <item name="android:paddingEnd">@dimen/tegula_spacing_xl</item>
+        <item name="android:stateListAnimator">@null</item>
     </style>
 </resources>
